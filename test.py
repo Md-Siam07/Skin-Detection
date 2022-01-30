@@ -15,7 +15,7 @@ for i in range (0, 256):
             line = f.readline()             
             probability[i][j][k] = float(line)
             
-testImage = Image.open("0000.jpg")
+testImage = Image.open("0151.jpg")
 pixel = testImage.load()
 pixel_out = testImage.load()
 
